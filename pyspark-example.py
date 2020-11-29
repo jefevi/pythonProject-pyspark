@@ -11,4 +11,4 @@ lines = sc.textFile("/spark/README.md")
 pythonlines = lines.filter(lambda line: "Python" in line)
 print(pythonlines.first())
 
-sys.exit()
+#sys.exit()
